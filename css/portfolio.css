@@ -1,15 +1,18 @@
 html, body {
-  background-color: #7556ff font-family: Book Antiqua, serif;
+  background-color: #dfd9fc;
+  font-family: Book Antiqua, serif;
 }
 
 h1, h2, h3 {
   font-family: Lucida Sans Console, sans-serif;
-  font-size: 10em;
+  font-size: 8em;
+  text-align: center;
 }
 
 p {
   font-family: Georgia, serif;
-  font-size: 4em;
+  font-size: 1em;
+  text-align: center;
 }
 
 div {}
@@ -32,18 +35,21 @@ img {}
 }
 
 .bar-block .bar-item {
+  width: 100%;
+  display: block;
   padding: 8px 16px;
-  float: left;
-  width: auto;
+  text-align: left;
   border: none;
   outline: none;
-  display: block
+  white-space: normal;
+  float: none
 }
 
 .button {
   width: 100%;
   text-align: left;
-  padding: 8px 16px
+  padding: 8px 16px;
+  border: none;
 }
 
 .border-right {
@@ -56,14 +62,11 @@ img {}
 
 .header {
   color: #fff!important;
-  background-color: #009688!important
+  background-color: #342482!important
 }
 
-.large{font-size:18px!important}
+.large {
+  font-size: 18px!important
+}
 
 .container {}
-
-#grad {
-  background: #7556ff;
-  background: linear-gradient(to right, #7556ff, #dfd9fc)
-}
