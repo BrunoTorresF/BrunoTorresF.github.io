@@ -1,12 +1,18 @@
 html, body {
   background-color: #dfd9fc;
-  font-family: Book Antiqua, serif;
+  font-family: "Book Antiqua", serif;
 }
 
-h1, h2, h3 {
-  font-family: Lucida Sans Console, sans-serif;
-  font-size: 8em;
+.header {
+  color: #fff!important;
+  background-color: #342482!important;
+}
+
+h1 {
+  font-family: "Lucida Sans Console", sans-serif;
+  font-size: 6em;
   text-align: center;
+
 }
 
 p {
@@ -22,8 +28,6 @@ ul {}
 img {}
 
 .img {}
-
-#NavMenu {}
 
 .sidebar {
   height: 100%;
@@ -46,7 +50,7 @@ img {}
 }
 
 .button {
-  width: 100%;
+  width: 20%;
   text-align: left;
   padding: 8px 16px;
   border: none;
@@ -57,16 +61,17 @@ img {}
 }
 
 .xlarge {
-  font-size: 24px!important
+  font-size: 48px!important;
+  border: none;
 }
 
-.header {
-  color: #fff!important;
-  background-color: #342482!important
-}
 
 .large {
   font-size: 18px!important
 }
 
 .container {}
+
+.title {
+  height: 8em;
+}
