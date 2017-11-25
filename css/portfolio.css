@@ -1,18 +1,24 @@
 html, body {
   background-color: #7556ff
+  font-family: Book Antiqua, serif;
 }
 
 body {
   color:
+  background-color:
 }
 
-h1, h2, h3 {}
+h1, h2, h3 {
+  font-family: Lucida Sans Console, sans-serif;
+  font-size: 10em;
+}
 
-p {}
+p {
+  font-family: Georgia, serif;
+  font-size: 4em;
+}
 
 div {}
-
-span {}
 
 ul {}
 
