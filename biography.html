@@ -10,39 +10,41 @@
 
 <body>
 
-  <!-- Side Bar menu-->
-  <div class="sidebar bar-block border-right" style="display:none" id="NavMenu">
-    <button onclick="sidebar_close()" class="bar-item large">Close &times;</button>
-    <a href="biography.html" class="bar-item button">Biography</a>
-    <a href="education.html" class="bar-item button">Education</a>
-    <a href="projects.html" class="bar-item button">Projects</a>
-    <a href="interests.html" class="bar-item button">Interests</a>
-  </div>
-  <!-- Page Content -->
-  <div class="header">
-    <button class="button header xlarge" onclick="sidebar_open()">☵</button>
-    <div class="container">
-      <h1>Bruno Torres Fabila</h1>
+  <body>
+
+    <!-- Side Bar menu-->
+    <div class="sidebar bar-block border-right" style="display:none" id="NavMenu">
+      <button onclick="sidebar_close()" class="bar-item large">Close &times;</button>
+      <a href="biography.html" class="bar-item button">Biography</a>
+      <a href="education.html" class="bar-item button">Education</a>
+      <a href="projects.html" class="bar-item button">Projects</a>
+      <a href="interests.html" class="bar-item button">Interests</a>
     </div>
-  </div>
+    <!-- Page Content -->
+    <div class="header">
+      <button class="button header xlarge" onclick="sidebar_open()">☵</button>
+      <div class="head">
+        <h1>Biography</h1>
+      </div>
+    </div>
 
-  <img src="img_car.jpg" alt="Car" style="width:100%">
+    <img src="img_car.jpg" alt="Car" style="width:100%">
 
-  <div class="container">
-    <p>This sidebar is hidden by default, (style="display:none")</p>
-    <p>You must click on the "hamburger" icon (top left) to open it.</p>
-    <p>The sidebar will hide a part of the page content.</p>
-  </div>
+    <div class="container">
+      <p>This sidebar is hidden by default, (style="display:none")</p>
+      <p>You must click on the "hamburger" icon (top left) to open it.</p>
+      <p>The sidebar will hide a part of the page content.</p>
+    </div>
 
-  <script>
-    function sidebar_open() {
-      document.getElementById("NavMenu").style.display = "block";
-    }
+    <script>
+      function sidebar_open() {
+        document.getElementById("NavMenu").style.display = "block";
+      }
 
-    function sidebar_close() {
-      document.getElementById("NavMenu").style.display = "none";
-    }
-  </script>
+      function sidebar_close() {
+        document.getElementById("NavMenu").style.display = "none";
+      }
+    </script>
 
 
 </body>
