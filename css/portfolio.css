@@ -6,19 +6,29 @@ html, body {
 .header {
   color: #fff!important;
   background-color: #342482!important;
+  position: relative;
+}
+
+.head {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
 
 h1 {
   font-family: "Lucida Sans Console", sans-serif;
-  font-size: 6em;
+  font-size: 3em;
   text-align: center;
-
 }
 
 p {
   font-family: Georgia, serif;
   font-size: 1em;
   text-align: center;
+  vertical-align: auto;
 }
 
 div {}
@@ -38,6 +48,13 @@ img {}
   overflow: auto
 }
 
+.button {
+  width: 100px;
+  text-align: left;
+  padding: 8px 16px;
+  border: none;
+}
+
 .bar-block .bar-item {
   width: 100%;
   display: block;
@@ -46,14 +63,7 @@ img {}
   border: none;
   outline: none;
   white-space: normal;
-  float: none
-}
-
-.button {
-  width: 20%;
-  text-align: left;
-  padding: 8px 16px;
-  border: none;
+  float: none;
 }
 
 .border-right {
@@ -65,13 +75,11 @@ img {}
   border: none;
 }
 
-
 .large {
   font-size: 18px!important
 }
 
-.container {}
-
-.title {
-  height: 8em;
+.container {
+  vertical-align: middle;
+  text-align: center;
 }
