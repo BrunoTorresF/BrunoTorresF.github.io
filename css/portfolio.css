@@ -1,11 +1,5 @@
 html, body {
-  background-color: #7556ff
-  font-family: Book Antiqua, serif;
-}
-
-body {
-  color:
-  background-color:
+  background-color: #7556ff font-family: Book Antiqua, serif;
 }
 
 h1, h2, h3 {
@@ -25,3 +19,51 @@ ul {}
 img {}
 
 .img {}
+
+#NavMenu {}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #fff;
+  position: fixed!important;
+  z-index: 1;
+  overflow: auto
+}
+
+.bar-block .bar-item {
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  outline: none;
+  display: block
+}
+
+.button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px
+}
+
+.border-right {
+  border-right: 1px solid #ccc!important
+}
+
+.xlarge {
+  font-size: 24px!important
+}
+
+.header {
+  color: #fff!important;
+  background-color: #009688!important
+}
+
+.large{font-size:18px!important}
+
+.container {}
+
+#grad {
+  background: #7556ff;
+  background: linear-gradient(to right, #7556ff, #dfd9fc)
+}
